@@ -10,7 +10,7 @@
 byte transmitterAddress[] = "transmitter00";
 byte recieverAddress[] = "reciever00";
 
-RF24 nRF(CE, CS);
+RF24 nRF(CS, CE);
 
 // mpu initialization
 MPU6050 mpu(Wire);
