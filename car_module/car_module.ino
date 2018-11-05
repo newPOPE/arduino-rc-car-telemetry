@@ -22,7 +22,7 @@ void setup() {
   Serial.println(F("Initializing I2C devices..."));
   mpu.begin();
   //mpu.calcGyroOffsets(true);
-  mpu.setGyroOffsets(-1.09, 1.19, 0.17);
+  mpu.setGyroOffsets(-1.59, 1.49, 0.10);
 
   Serial.println("Transmitter setup.");
   nRF.begin();
