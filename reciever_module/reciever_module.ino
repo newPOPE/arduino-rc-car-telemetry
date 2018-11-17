@@ -79,8 +79,6 @@ void loop() {
     lcd.setCursor(11, 1);
     lcd.print((int) values[3]);
 
-    delay(300);
-
     nRF.stopListening();
     nRF.startListening();    
   }
